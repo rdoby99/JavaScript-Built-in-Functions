@@ -21,3 +21,16 @@ Examples from https://www.w3schools.com/jsref
   - Ex. `var str = "Visit W3Schools!"; var n = str.search("W3Schools"); //n = 6` CHECK THIS
 - `slice()` Extracts a section of a string and returns a new string.
   - Ex. `var str = "Hello world!"; var res = str.slice(0, 5); //res = "Hello"`
+- `split()` Splits a String object into an array of strings by separating the string into substrings.
+  - Ex. `var str = "How are you doing today?"; var res = str.split(" ");`
+- `toLowerCase()` Returns the calling string value converted to lower case.
+  - Ex. `var str = "Hello World!"; var res = str.toLowerCase();`
+- `toUpperCase()` Returns the calling string value converted to uppercase.
+  - Ex. `var str = "Hello World!"; var res = str.toUpperCase();`
+  
+## Aray Methods
+- `every()` Returns true if every element in this array satisfies the provided testing function.
+- `filter()` Creates a new array with all of the elements of this array for which the provided filtering function returns true.
+- `forEach()` Calls a function for each element in the array.
+- `indexOf()` Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
+- `join()` Joins all elements of an array into a string.
