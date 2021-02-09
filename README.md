@@ -35,3 +35,4 @@ Examples from https://www.w3schools.com/jsref
 - `indexOf()` Returns the first (least) index of an element within the array equal to the specified value, or -1 if none is found.
 - `join()` Joins all elements of an array into a string.
 - `reverse()` Reverses the order of the elements of an array -- the first becomes the last, and the last becomes the first.
+- `reduce()` Executes a reducer function (that you provide) on each element of the array, resulting in single output value.
