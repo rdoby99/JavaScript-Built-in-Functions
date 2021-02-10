@@ -27,8 +27,11 @@ Examples from https://www.w3schools.com/jsref
   - Ex. `var str = "Hello World!"; var res = str.toLowerCase();`
 - `toUpperCase()` Returns the calling string value converted to uppercase.
   - Ex. `var str = "Hello World!"; var res = str.toUpperCase();`
+- `Number()` Turns a string into a number.
+  - Ex. `Number('123') //123`
+- `parseInt()` parses a string argument and returns an integer of the specified radix
   
-## Aray Methods
+## Array Methods
 - `every()` Returns true if every element in this array satisfies the provided testing function.
 - `filter()` Creates a new array with all of the elements of this array for which the provided filtering function returns true.
 - `forEach()` Calls a function for each element in the array.
@@ -36,3 +39,6 @@ Examples from https://www.w3schools.com/jsref
 - `join()` Joins all elements of an array into a string.
 - `reverse()` Reverses the order of the elements of an array -- the first becomes the last, and the last becomes the first.
 - `reduce()` Executes a reducer function (that you provide) on each element of the array, resulting in single output value.
+
+## Other
+- `Math.sign()` returns either a positive or negative +/- 1, indicating the sign of a number passed into the argument. 
